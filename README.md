@@ -32,13 +32,13 @@ Install poppler-utils (for PDF processing):
 
 !apt-get install -y poppler-utils
 
-### Install Python dependencies:
+### 2. Install Python dependencies:
 
 !pip install -r requirements.txt
 
 This will install all the required packages listed in the requirements.txt file, including PaddleOCR, LangChain, FAISS, and others.
 
-### 2. Upload and Process Documents
+### 3. Upload and Process Documents
 
 Step 1: Upload Documents
 
@@ -50,7 +50,7 @@ Step 2: Create Text Chunks
 1. Once the OCR is complete, the extracted text will be split into manageable chunks.
 2. These chunks are stored for further processing.
 
-### 3. Generate Embeddings and Store in FAISS
+### 4. Generate Embeddings and Store in FAISS
 
 Step 1: Generate Embeddings
 
@@ -61,7 +61,7 @@ Step 2: Store in FAISS
 
 1. The embeddings are stored in a FAISS index for fast similarity search.
 
-### 4. Set Up the Language Model with LM Studio
+### 5. Set Up the Language Model with LM Studio
 
 Step 1: Download LM Studio
 
@@ -77,7 +77,7 @@ Step 3: Get the Local Server Address
 1. Once the model is downloaded, go to the Developer section and find the local server address (e.g., http://127.0.0.1:1234)
 2. This is where the model will be served locally.
 
-### 5. Configure Ngrok for External Access
+### 6. Configure Ngrok for External Access
 
 Ngrok is used to expose your local server to the internet so that the chatbot can communicate with the language model.
 
@@ -104,7 +104,7 @@ Step 4: Add Ngrok Authentication Token
    !ngrok config add-authtoken "YOUR_TOKEN"
    Replace "YOUR_TOKEN" with your actual Ngrok token.
 
-### 6. Launch the Streamlit Interface
+### 7. Launch the Streamlit Interface
 
 Step 1: Run the Streamlit Cell
 
