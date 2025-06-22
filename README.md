@@ -32,7 +32,7 @@ Install poppler-utils (for PDF processing):
 
 !apt-get install -y poppler-utils
 
-# Install Python dependencies:
+### Install Python dependencies:
 
 !pip install -r requirements.txt
 
