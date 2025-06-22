@@ -1,0 +1,31 @@
+# Core packages
+PyMuPDF==1.26.1
+pdf2image==1.17.0
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.25.1
+opencv-python==4.10.0.84
+numpy==1.26.4
+
+# PaddleOCR
+paddlepaddle==2.6.1
+paddleocr==2.8.0
+
+# Torch & audio/image modules
+torch==2.0.1
+torchaudio==2.0.2
+torchvision==0.15.2
+
+# Embedding & model tools
+ftfy==6.1.1
+regex==2023.12.25
+git+https://github.com/openai/CLIP.git
+sentence-transformers==2.7.0
+transformers==4.40.0
+faiss-cpu==1.7.4
+
+# Misc
+Pillow==11.0.0
+requests==2.32.3
+tqdm==4.67.1
+huggingface_hub==0.33.0
+streamlit
