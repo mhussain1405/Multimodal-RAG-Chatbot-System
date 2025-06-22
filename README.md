@@ -141,5 +141,6 @@ poppler-utils : Enables PDF parsing and page extraction for document processing.
 ### 3. Language Model
 
 Llama 3:8b Meta Instruct (via LM Studio) : The backbone of response generation — a state-of-the-art open-source language model.
+
 Ngrok : Used to expose the local LLM server to the internet for integration with the chatbot interface.
 
