@@ -87,8 +87,10 @@ Step 1: Install Ngrok
 
 Step 2: Start Ngrok
 
-1. Open a terminal or command prompt and run:
+1. Open the exe file and run:
+   
    ngrok http 1234
+   
    Replace 1234 with the port number of your local server (from LM Studio).
 
 Step 3: Copy the Forwarding URL
@@ -101,7 +103,9 @@ Step 4: Add Ngrok Authentication Token
 
 1. Sign up for a free Ngrok account at ngrok.com.
 2. Get your authentication token and add it to Ngrok in the notebook cell.
+   
    !ngrok config add-authtoken "YOUR_TOKEN"
+   
    Replace "YOUR_TOKEN" with your actual Ngrok token.
 
 ### 7. Launch the Streamlit Interface
